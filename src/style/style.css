@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.box {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: auto;
+  min-height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #0d00ff;
+  background-image: url(../img/pexels-pixabay-531880.jpg);
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+  background: #000000d2;
+  width: 80%;
+  color: #fff;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+.abaot {
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  min-height: 110vh;
+  background: #f3e7e72e;
+  backdrop-filter: blur(6px);
+  margin: -20px auto;
+  padding-top: 20px;
+}
+
+.swal2-confirm {
+  background: red;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffff;
+}
+
+.swal2-cancel {
+  background: #6fff00;
+  margin-right: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffff;
+}
+
+.btnn {
+  background: #0901ff;
+  color: #ffff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.form>input::placeholder {
+  color: #000000;
+}
+
+.form>input {
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  border: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px auto;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffff;
+  background: #00000065;
+}
+
+.btnnn {
+  position: fixed;
+  width: 100px;
+  border-radius: 10px;
+  height: 30px;
+  outline: none;
+  top: 40px;
+  right: 0px;
+  left: 130px;
+  border: none;
+  background: rgb(72, 255, 0);
+  color: #ffff;
+}
+
+
+.sikleimg {
+  width: 80%;
+  height: 200px;
+  margin: 10px;
+}
+
+.sikleimg1 {
+  width: 80%;
+  height: 50px;
+  margin: 10px;
+}
+
+.siklebtn {
+  width: 100%;
+  border-radius: 10px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background: red;
+  color: #ffff;
+}
+
+.siklebtn1 {
+  width: 100%;
+  border-radius: 10px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background: rgb(72, 255, 0);
+  color: #ffff;
+}
+
+.siklebtn11 {
+  width: 100px;
+  border-radius: 10px;
+  position: fixed;
+  top: 40px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background: rgb(72, 255, 0);
+  color: #ffff;
+}
+
+.table {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: none;
+  color: #ffff;
+  margin: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(7px);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 90%;
+  margin: 20px auto;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  background: #fff;
+  height: auto;
+  min-height: 400px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.flexx {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.flexxx {
+  height: 100px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.p {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 30px;
+  gap: 20px;
+}
+
+.savat {
+  width: 100px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.plus {
+  border: none;
+  outline: none;
+  background: #023dff;
+  font-size: 20px;
+  color: #FFF;
+  width: 40px;
+  border-radius: 6px;
+}
+
+.minus {
+  border: none;
+  outline: none;
+  background: #ff6302;
+  font-size: 20px;
+  color: #FFF;
+  width: 40px;
+  border-radius: 6px;
+}
+
+
+@media (max-width:950px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .sikleimg {
+    width: 100%;
+  }
+
+  table {
+    width: 100%;
+  }
+}
+
+@media (max-width:630px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+
+  table {
+    font-size: 10px;
+    width: 200px;
+  }
+}
+
+@media (max-width:550px) {
+  table {
+    width: 100%;
+    padding: 0px;
+    font-size: 10px;
+  }
+
+  th {
+    padding: 5px;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+}
+
+@media (max-width:430px) {
+  .form {
+    width: 100%;
+  }
+
+  .cards {
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .card {
+    margin: 0 auto;
+  }
+}
